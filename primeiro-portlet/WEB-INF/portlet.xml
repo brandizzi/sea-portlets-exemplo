@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<portlet-app version="2.0"
+    xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+      http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd 
+      http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd">
+  <portlet>
+    <portlet-name>primeiro-portlet</portlet-name>
+    <display-name>Primeiro portlet</display-name>
+    <portlet-class>br.com.seatecnologia.blog.portlet.PrimeiroPortlet</portlet-class>
+    <supports>
+      <mime-type>text/html</mime-type>
+      <portlet-mode>VIEW</portlet-mode>
+    </supports>
+    <portlet-info>
+      <title>Primeiro portlet</title>
+      <short-title>Primeiro portlet</short-title>
+      <keywords></keywords>
+    </portlet-info>
+  </portlet>
+  <portlet>
+    <portlet-name>segundo-portlet</portlet-name>
+    <display-name>Segundo portlet</display-name>
+    <portlet-class>br.com.seatecnologia.blog.portlet.SegundoPortlet</portlet-class>
+    <supports>
+      <mime-type>text/html</mime-type>
+      <portlet-mode>VIEW</portlet-mode>
+    </supports>
+    <portlet-info>
+      <title>Segundo portlet</title>
+      <short-title>Segundo portlet</short-title>
+      <keywords></keywords>
+    </portlet-info>
+  </portlet>
+  <portlet>
+    <portlet-name>terceiro-portlet</portlet-name>
+    <display-name>Terceiro portlet</display-name>
+    <portlet-class>br.com.seatecnologia.blog.portlet.SomosLegiaoPortlet</portlet-class>
+    <supports>
+      <mime-type>text/html</mime-type>
+      <portlet-mode>VIEW</portlet-mode>
+    </supports>
+    <portlet-info>
+      <title>Terceiro portlet</title>
+      <short-title>Terceiro portlet</short-title>
+      <keywords></keywords>
+    </portlet-info>
+  </portlet>
+  <portlet>
+    <portlet-name>quarto-portlet</portlet-name>
+    <display-name>Quarto portlet</display-name>
+    <portlet-class>br.com.seatecnologia.blog.portlet.SomosLegiaoPortlet</portlet-class>
+    <supports>
+      <mime-type>text/html</mime-type>
+      <portlet-mode>VIEW</portlet-mode>
+    </supports>
+    <portlet-info>
+      <title>Quarto portlet</title>
+      <short-title>Quarto portlet</short-title>
+      <keywords></keywords>
+    </portlet-info>
+  </portlet>
+</portlet-app>
