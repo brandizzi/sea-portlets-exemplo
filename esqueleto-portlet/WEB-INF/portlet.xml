@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<portlet-app version="2.0"
+    xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+      http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd 
+      http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd">
+    <portlet-name>NOME IDENTIFICADOR DO PORTLET AQUI</portlet-name>
+    <display-name>NOME DE APRESENTACAO DO PORTLET AQUI</display-name>
+    <portlet-class>CLASSE DO PORTLET AQUI</portlet-class>
+    <supports>
+      <mime-type>text/html</mime-type>
+      <portlet-mode>VIEW</portlet-mode>
+    </supports>
+    <portlet-info>
+      <title>TITULO DO PORTLET AQUI</title>
+      <short-title>TITULO CURTO DO PORTLET AQUI</short-title>
+      <keywords></keywords>
+    </portlet-info>
+  </portlet>
+</portlet-app>
