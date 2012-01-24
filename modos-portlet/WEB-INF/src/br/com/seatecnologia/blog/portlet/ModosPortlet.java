@@ -9,7 +9,6 @@ import javax.portlet.RenderRequest;
 import javax.portlet.RenderResponse;
 
 public class ModosPortlet extends GenericPortlet {
-
     @Override
     public void doView(RenderRequest renderRequest, RenderResponse renderResponse)
     throws IOException, PortletException {
@@ -22,4 +21,9 @@ public class ModosPortlet extends GenericPortlet {
         renderResponse.getWriter().write("Tela do portlet no modo edit - fora do modo view");
     }
 
+    @Override
+    public void doHelp(RenderRequest renderRequest, RenderResponse renderResponse)
+    throws IOException, PortletException {
+        renderResponse.getWriter().write("Tela do portlet no modo help - o modo mais recentemente adicionado");
+    }
 }

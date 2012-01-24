@@ -13,6 +13,7 @@
       <mime-type>text/html</mime-type>
       <portlet-mode>VIEW</portlet-mode>
       <portlet-mode>EDIT</portlet-mode>
+      <portlet-mode>HELP</portlet-mode>
     </supports>
     <portlet-info>
       <title>Portlet com vários modos</title>
