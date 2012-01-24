@@ -16,4 +16,10 @@ public class ModosPortlet extends GenericPortlet {
         renderResponse.getWriter().write("Tela do portlet no modo view");
     }
 
+    @Override
+    public void doEdit(RenderRequest renderRequest, RenderResponse renderResponse)
+    throws IOException, PortletException {
+        renderResponse.getWriter().write("Tela do portlet no modo edit - fora do modo view");
+    }
+
 }
