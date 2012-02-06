@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<portlet-app version="2.0"
+    xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+      http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd 
+      http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd">
+  <portlet>
+    <portlet-name>hello-portlet</portlet-name>
+    <display-name>Portlet "Hello, World"</display-name>
+    <portlet-class>br.com.seatecnologia.blog.portlet.HelloPortlet</portlet-class>
+    <supports>
+      <mime-type>text/html</mime-type>
+      <portlet-mode>VIEW</portlet-mode>
+    </supports>
+    <portlet-info>
+      <title>Portlet "Hello, World"</title>
+      <short-title>Portlet "Hello, World"</short-title>
+      <keywords></keywords>
+    </portlet-info>
+  </portlet>
+</portlet-app>
