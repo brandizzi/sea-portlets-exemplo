@@ -15,6 +15,16 @@ public class HelloPortlet extends GenericPortlet {
     public void doView(RenderRequest renderRequest, RenderResponse renderResponse)
     throws IOException, PortletException {
         String path = "/view.jsp";
+        include(path, renderRequest, renderResponse);
+    }
+    @Override
+    public void doEdit(RenderRequest renderRequest, RenderResponse renderResponse)
+    throws IOException, PortletException {
+        String path = "/edit.jsp";
+        include(path, renderRequest, renderResponse);
+    }
+    public void include(String path, RenderRequest renderRequest, RenderResponse renderResponse)
+    throws IOException, PortletException {
         PortletContext context = getPortletContext();
         PortletRequestDispatcher dispatcher =  context.getRequestDispatcher(path);
         dispatcher.include(renderRequest, renderResponse);
